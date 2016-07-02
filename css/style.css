@@ -1,0 +1,34 @@
+body {
+	background-color: #eee;
+	font: 16px/1.5 'Times New Roman', Times, serif;
+}
+h2,
+figure {
+	text-align: center;
+}
+p {
+	padding-left: 14px;
+}
+ul {
+	margin-top: 20px;
+}
+.main {
+	max-width: 515px;
+	margin: 4px auto auto;
+	padding-bottom: 50px;
+	border: 1px solid #D5D5D5;
+	background-color: #fff;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.section {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+	border-bottom: 1px solid #D5D5D5;
+}
+.section:last-child {
+	border-bottom: none;
+}
+.section__p--margin {
+	margin-top: 20px;
+}
